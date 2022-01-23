@@ -1,5 +1,5 @@
 ﻿//Get Filename from console
-//Read in the in file and flip it's bits
+//Read in the in file and flip it's bit order
 //Save the file to string.reverse if target does not already exist
 //.... profit?
 const byte allOne = 255;
