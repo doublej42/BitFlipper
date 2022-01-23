@@ -7,7 +7,7 @@ const byte allOne = 255;
 var filename = Path.GetFullPath(args[0]);
 
 Console.WriteLine($"Bit flipping {filename}");
-var targetFile = Path.Combine(Path.GetDirectoryName(filename) , new String(Path.GetFileName(filename).ToCharArray().Reverse().ToArray()));
+var targetFile = Path.Combine(Path.GetDirectoryName(filename)??"" , new string(Path.GetFileName(filename).ToCharArray().Reverse().ToArray()));
 Console.WriteLine($"Writing output to {targetFile}");  
 if (File.Exists(targetFile))
 {
