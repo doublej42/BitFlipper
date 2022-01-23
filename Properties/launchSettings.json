@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BitFlipper": {
+      "commandName": "Project",
+      "commandLineArgs": "test.testing"
+    }
+  }
+}
