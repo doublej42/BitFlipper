@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Get Filename from console
+﻿//Get Filename from console
 //Read in the in file and flip it's bit order
 //Save the file to string.reverse if target does not already exist
 //.... profit?
